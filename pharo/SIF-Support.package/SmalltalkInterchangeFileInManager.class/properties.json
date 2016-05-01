@@ -1,0 +1,20 @@
+{
+	"category" : "SIF-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"headerStream",
+		"currentItem",
+		"nextItem",
+		"isSmalltalkItemProcessed",
+		"itemInfoByFirstToken",
+		"itemInfoBySecondToken",
+		"classToPackageName" ],
+	"name" : "SmalltalkInterchangeFileInManager",
+	"pools" : [
+		 ],
+	"super" : "SmalltalkInterchangeFileManager",
+	"type" : "normal" }

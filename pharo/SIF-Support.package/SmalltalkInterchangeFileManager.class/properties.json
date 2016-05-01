@@ -1,0 +1,16 @@
+{
+	"category" : "SIF-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Defaults" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fileName",
+		"managedStream",
+		"streamStack" ],
+	"name" : "SmalltalkInterchangeFileManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

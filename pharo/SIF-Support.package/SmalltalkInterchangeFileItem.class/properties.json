@@ -1,0 +1,20 @@
+{
+	"category" : "SIF-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"manager",
+		"info",
+		"firstToken",
+		"name",
+		"classItemInfo",
+		"value",
+		"annotations" ],
+	"name" : "SmalltalkInterchangeFileItem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

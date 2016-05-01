@@ -1,0 +1,16 @@
+{
+	"category" : "SIF-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"versionString",
+		"fileOutInfoByType",
+		"addedItems" ],
+	"name" : "SmalltalkInterchangeFileOutManager",
+	"pools" : [
+		 ],
+	"super" : "SmalltalkInterchangeFileManager",
+	"type" : "normal" }

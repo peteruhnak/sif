@@ -1,0 +1,4 @@
+get contents
+getConstantItemContents
+
+	self getVariableItemContents
