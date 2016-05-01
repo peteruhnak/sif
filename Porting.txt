@@ -1,0 +1,51 @@
+Smalltalk Interchange File Facility
+by Eric Arseneau eat@huv.com
+
+Porting Information
+
+1.0 Introduction
+----------------------
+This document outline some basic information on how to go about porting to an unsupported dialect.
+
+2.0 Steps
+------------
+A) Create the package in which you wish to place the support layer of SIF
+B) File in one of into the newly created package
+	'sifupport.st' - for dialects that do not need the category: component in it's class definition selector
+		VA, Dolphin, VSE
+	'sifsupport with systemcategories.st' - for the dialects that must have the category: part of the class definition selector
+		VW, Squeak
+Note that this files were generated using SmalltalkInterchangeFileOutManager fileOutSifSupportUsingSystemCategories: with true and false.
+This will give you the support layer of SIF in the new dialect.
+
+C) Define a new class as a subclass of SmalltalkInterchangeFileInManager and using an existing working port, implement the following methods, using one of the implementations as an example:
+	SmalltalkInterchangeDialectNameFileInManager>>fileInClassItem:
+	SmalltalkInterchangeDialectNameFileInManager>>fileInMethodItem:intoClass:
+	SmalltalkInterchangeDialectNameFileInManager>>handleAnnotationsOnGlobalInitializerItem:
+	SmalltalkInterchangeDialectNameFileInManager>>newStreamOnFileNamed:
+	SmalltalkInterchangeDialectNameFileInManager>>nextWord
+	SmalltalkInterchangeDialectNameFileInManager class>>initialize
+
+D) This will give you the basic support for filing in SIF code.  When you are done implementing these methods, use it to bootstrap itself
+	SmalltalkInterchangeDialectNameFileInManager initialize.
+	SmalltalkInterchangeFileManager newForFileIn
+		fileName: 'st-support.sif';
+		fileIn.
+This will bring in the SIF support code and provide the correct categories and all.
+
+E) Now create a subclass of SmalltalkInterchangeFileOutManager and as with the file in manager, implement the following:
+	SmalltalkInterchangeDialectNameFileOutManager>>classOfBehavior:
+	SmalltalkInterchangeDialectNameFileOutManager>>classDefinitionInfoFor:
+	SmalltalkInterchangeDialectNameFileOutManager>>methodItemInfoFor:ofClass:
+	SmalltalkInterchangeDialectNameFileOutManager>>packageItemInfoFor:
+	SmalltalkInterchangeDialectNameFileOutManager>>newStreamOnFileNamed:
+	SmalltalkInterchangeDialectNameFileOutManager>>poolVariableItemInfoFor:in:
+
+F) File in the 'SIFTestAll.sif' in order to do tests.
+
+G) E-mail me if you need any help mailto:eat@huv.com or want to place it onto the same plac eyou got this from
+
+3.0 Contact
+----------------
+http://www.PocketSmalltalk.com/sif
+mailto:eat@huv.com

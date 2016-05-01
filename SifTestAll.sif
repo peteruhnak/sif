@@ -1,0 +1,349 @@
+Smalltalk interchangeVersion: '1.0'!
+
+
+Global initializer!
+!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+Annotation key: 'package-preRequisites' value: 'Dolphin!!'!
+Class named: 'SIFTestClass01'
+	superclass: 'Object'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+Class named: 'SIFTestClass02'
+	superclass: 'SIFTestClass01'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+Class named: 'SIFTestClass06'
+	superclass: 'SIFTestClass01'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+Class named: 'SIFTestClass07'
+	superclass: 'SIFTestClass06'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+Class named: 'SIFTestClass03'
+	superclass: 'SIFTestClass02'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+Class named: 'SIFTestClass04'
+	superclass: 'SIFTestClass03'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+Class named: 'SIFTestClass08'
+	superclass: 'SIFTestClass07'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+Class named: 'SIFTestClass09'
+	superclass: 'SIFTestClass08'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+Class named: 'SIFTestClass05'
+	superclass: 'SIFTestClass04'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage01'!
+
+SIFTestClass01 method!
+class01Category01InstanceMethod01
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'category' value: 'class 01 category 01'!
+
+SIFTestClass01 method!
+class01Category02InstanceMethod01
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'category' value: 'class 01 category 02'!
+
+SIFTestClass01 method!
+class01Category01Category02InstanceMethod01
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'category' value: 'class 01 category 01'!
+Annotation key: 'categories' value: 'class 01 category 01!!class 01 category 02!!'!
+
+SIFTestClass01 method!
+class01Category01InstanceMethod02
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'category' value: 'class 01 category 01'!
+
+SIFTestClass01 classMethod!
+class01Category01ClassMethod01
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'category' value: 'class class 01 category 01'!
+
+SIFTestClass01 classMethod!
+initialize!
+
+SIFTestClass01 initializer!
+SIFTestClass01 initialize!
+Global initializer!
+!
+Annotation key: 'package' value: 'SIF-TestPackage02'!
+Annotation key: 'package-preRequisites' value: 'SIF-TestPackage01!!Dolphin!!'!
+
+Global initializer!
+
+	"Package 02 pre install"!
+Annotation key: 'package' value: 'SIF-TestPackage02'!
+Annotation key: 'package-preInstallCode' value: '
+	"Package 02 pre install"'!
+
+Global initializer!
+!
+Annotation key: 'package' value: 'SIF-TestPackage02'!
+Annotation key: 'package-preUnInstallCode' value: '
+	"Package 02 pre un install"
+'!
+
+Global initializer!
+!
+Annotation key: 'package' value: 'SIF-TestPackage02'!
+Annotation key: 'package-postUnInstallCode' value: '
+	"Package 02 post un install"
+'!
+Class named: 'SIFTestClass10'
+	superclass: 'Object'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackage02'!
+
+SIFTestClass09 classMethod!
+class09Category01Package02ClassMethod01
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'category' value: 'class class 09 category 01'!
+Annotation key: 'package' value: 'SIF-TestPackage02'!
+
+SIFTestClass09 method!
+class09NoCategoryPackage02InstanceMethod01
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'package' value: 'SIF-TestPackage02'!
+
+Global initializer!
+
+	"Package 02 post install"
+!
+Annotation key: 'package' value: 'SIF-TestPackage02'!
+Annotation key: 'package-postInstallCode' value: '
+	"Package 02 post install"
+'!
+Global initializer!
+!
+Annotation key: 'package' value: 'SIF-TestPackage03'!
+Annotation key: 'package-preRequisites' value: 'SIF-TestPackage01!!'!
+
+SIFTestClass01 method!
+class01Category03Package03InstanceMethod01
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'category' value: 'class 01 category 03'!
+Annotation key: 'package' value: 'SIF-TestPackage03'!
+
+SIFTestClass01 method!
+class01Category03Package03InstanceMethod02
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'category' value: 'class 01 category 03'!
+Annotation key: 'package' value: 'SIF-TestPackage03'!
+
+SIFTestClass09 method!
+class09NoCategoryPackage03InstanceMethod01
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'package' value: 'SIF-TestPackage03'!
+
+SIFTestClass09 method!
+class09NoCategoryPackage03InstanceMethod02
+	"	^	self
+	Hello"
+
+	^self!
+Annotation key: 'package' value: 'SIF-TestPackage03'!
+
+Global initializer!
+!
+Annotation key: 'package' value: 'SIF-TestPackageSetup'!
+Annotation key: 'package-preRequisites' value: 'Dolphin!!SIF-TestPackage01!!SIF-Support!!'!
+Class named: 'SIFTestSetup'
+	superclass: 'Object'
+	indexedInstanceVariables: #none
+	instanceVariableNames: ''
+	classVariableNames: ''
+	sharedPools: ''
+	classInstanceVariableNames: ''!
+Annotation key: 'package' value: 'SIF-TestPackageSetup'!
+
+SIFTestSetup classMethod!
+initializeVariables
+	"
+	SIFTestSetup initializeVariables.
+	SIFTestSetup removeVariables.
+	"
+
+	| pool |
+	Smalltalk at: #SIFTestPackageGlobal01 put: 1000;
+		at: #SIFTestPackageGlobal02 put: 2000.
+	pool := Smalltalk at: #SIFTestPackagePool01 put: PoolDictionary new.
+	pool at: 'Pool01Variable01' put: 10;
+		at: 'Pool01Variable02' put: 20.
+	pool := Smalltalk at: #SIFTestPackagePool02 put: PoolDictionary new.
+	pool at: 'Pool02Variable01' put: '10';
+		at: 'Pool02Variable02' put: '20'.
+	pool := Smalltalk at: #SIFTestPackagePool03 put: PoolDictionary new.
+	pool at: 'Pool03Variable01' put: '10';
+		at: 'Pool03Variable02' put: '20'.
+	pool := Smalltalk at: #SIFTestPackagePool04 put: PoolConstantsDictionary new.
+	pool at: 'Pool04Constant01' put: 100;
+		at: 'Pool04Constant02' put: 200.!
+
+SIFTestSetup classMethod!
+fileOutPackageTest
+	"
+	SIFTestSetup fileOutPackageTest.
+	SmalltalkInterchangeFileManager newForFileIn
+		fileName: 'SifTestPackages.sif';
+		fileIn
+	"
+
+	| manager |
+	manager := SmalltalkInterchangeFileManager newForFileOut.
+	manager fileName: 'SifTestPackages.sif';
+		addPackageNamed: 'SIF-TestPackage01';
+		addPackageNamed: 'SIF-TestPackage02';
+		addPackageNamed: 'SIF-TestPackage03'.
+	manager fileOut.!
+
+SIFTestSetup classMethod!
+fileOutVariableTest
+	"
+	SIFTestSetup initializeVariables.
+	SIFTestSetup fileOutVariableTest.
+	SIFTestSetup removeVariables.
+	SmalltalkInterchangeFileManager newForFileIn
+		fileName: 'SifTestVars.sif';
+		fileIn
+	"
+
+	| manager |
+		"Test globals and pools"
+	manager := SmalltalkInterchangeFileManager newForFileOut.
+	manager fileName: 'SifTestVars.sif';
+		addGlobalNamed: #SIFTestPackageGlobal01;
+		addGlobalNamed: #SIFTestPackageGlobal02 initializer: #default;
+		addGlobalNamed: #SIFTestPackageGlobal03 initializer: '4000';
+		addPoolNamed: #SIFTestPackagePool01;
+		addPoolNamed: #SIFTestPackagePool02 initializer: #default;
+		addPoolNamed: #SIFTestPackagePool03 initializer: (Dictionary new
+			at: 'Pool03Variable01' put: '''a string''';
+			yourself);
+		addPoolNamed: #SIFTestPackagePool04 initializer: #default.
+	manager fileOut.!
+
+SIFTestSetup classMethod!
+removeVariables
+	"
+	SIFTestSetup removeVariables.
+	"
+
+	Smalltalk removeKey: #SIFTestPackageGlobal01 ifAbsent: [];
+		removeKey: #SIFTestPackageGlobal02 ifAbsent: [];
+		removeKey: #SIFTestPackagePool01 ifAbsent: [];
+		removeKey: #SIFTestPackagePool02 ifAbsent: [];
+		removeKey: #SIFTestPackagePool03 ifAbsent: [];
+		removeKey: #SIFTestPackagePool04 ifAbsent: [].!
+
+SIFTestSetup classMethod!
+fileOutClassTest
+	"
+	SIFTestSetup fileOutClassTest.
+	SmalltalkInterchangeFileManager newForFileIn
+		fileName: 'SifTestClass.sif';
+		fileIn
+	"
+
+	| manager |
+	manager := SmalltalkInterchangeFileManager newForFileOut.
+	manager fileName: 'SifTestClass.sif';
+		addClass: SIFTestClass01.
+	manager fileOut.!
+
+SIFTestSetup classMethod!
+fileOutTestPackages
+	"
+	SIFTestSetup fileOutTestPackages.
+	SmalltalkInterchangeFileManager newForFileIn
+		fileName: 'SifTestAll.sif';
+		fileIn
+	"
+
+	| manager |
+	manager := SmalltalkInterchangeFileManager newForFileOut.
+	manager fileName: 'SifTestAll.sif';
+		addPackageNamed: 'SIF-TestPackage01';
+		addPackageNamed: 'SIF-TestPackage02';
+		addPackageNamed: 'SIF-TestPackage03';
+		addPackageNamed: 'SIF-TestPackageSetup'.
+	manager fileOut.!
+
