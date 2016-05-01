@@ -50,6 +50,10 @@ TODO
 
 TODO
 
+## Docs
+
+see [docs.md](docs.md)
+
 ## License
 
 This code is released under MIT with the permission of its original authors Eric Arseneau (SIF) and Martin Kobetic (VW port).
