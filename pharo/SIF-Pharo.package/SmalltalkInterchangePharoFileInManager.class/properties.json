@@ -1,0 +1,14 @@
+{
+	"category" : "SIF-Pharo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SmalltalkInterchangePharoFileInManager",
+	"pools" : [
+		 ],
+	"super" : "SmalltalkInterchangeFileInManager",
+	"type" : "normal" }
