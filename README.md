@@ -25,6 +25,29 @@ Until now the package was only available as a zip which isn't particularly helpf
 
 ## Loading
 
+### Pharo
+
+```st
+Metacello new
+	baseline: 'SIF';
+	repository: 'github://peteruhnak/sif/pharo';
+	load.
+```
+
+### Squeak
+
+TODO
+
+### VW
+
+TODO
+
+### Dolphin
+
+TODO
+
+### VA4
+
 TODO
 
 ## License
