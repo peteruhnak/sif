@@ -29,4 +29,4 @@ TODO
 
 ## License
 
-This code is released under MIT with the permission of its original authors Eric Arseneau and Martin Kobetic.
+This code is released under MIT with the permission of its original authors Eric Arseneau (SIF) and Martin Kobetic (VW port).
