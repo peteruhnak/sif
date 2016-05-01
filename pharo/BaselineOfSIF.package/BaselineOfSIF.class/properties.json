@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSIF",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSIF",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
