@@ -2,6 +2,9 @@
 
 SIF Smalltalk Interchange File is a dialect-neutral format for file-out exchange between various dialects.
 
+**NOTE:** *this repository exists primarily to provide an easily accessible place to load the project into Pharo and make the docs available, however it is not being actively developed*
+
+
 ## About
 
 In the ANSI NCITS 319-1998 Standard for Smalltalk, there is the definition of a Smalltalk Interchange File (SIF). This toolkit supports the reading and writing of such files for many dialects. A SIF contains ascii text that describes a Smalltalk program in such a way as to be able to read the file and regenerate the original program this file was created from. Simply put, it's a standard that supports the filing out of code from one Smalltalk dialect, into another.
